@@ -53,8 +53,8 @@ sports = [
 #3417 - 3430, 31 broken
 #start of 2022 szn is 3459
 #end of 2023 szn is 3650
-# for i in range(3581, 3651):
-#     url = f"https://theacc.com/schedule.aspx?schedule={i}"
-#     print(url)
-#     import_season_data(url, schools, sports)
+for i in range(3417, 3651):
+    url = f"https://theacc.com/schedule.aspx?schedule={i}"
+    print(url)
+    import_season_data(url, schools, sports)
 

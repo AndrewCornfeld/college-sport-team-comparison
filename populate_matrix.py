@@ -237,7 +237,7 @@ def compile_results():
     df = pd.DataFrame(results)
 
     # Define the file path for the Excel file
-    excel_file = "output.xlsx"
+    excel_file = "output1.xlsx"
 
     # Write the DataFrame to an Excel file
     df.to_excel(excel_file, index=False, header=False)
